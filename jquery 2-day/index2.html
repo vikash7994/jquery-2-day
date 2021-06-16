@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+</head>
+<style>
+    .sec{
+
+        width: 400px; height: 100px; background-color: yellow;
+         padding: 20px;
+    }
+</style>
+<body>
+    <P>HELLO WORLD</P>
+    <P id="A">HELLO javascript</P>
+    <P class="B">HELLO jquery</P>
+<!-- <input type="text" placeholder="name">
+<span id="wlc">Welcome</span>
+<span id="cc">care</span> -->
+
+
+
+
+
+
+
+<!-- <button>Home</button>
+<ul>
+    <li>About us </li>
+<li>Contact us</li>
+</ul>
+
+<ol>
+    <li>About us </li>
+<li>Contact us</li>
+</ol> -->
+
+
+<!-- <button id="child">Delete</button> -->
+
+<!-- for Remove and Empty method -->
+<!-- 
+    <div id="sec" style="width: 400px; height: 200px; background-color: yellow; padding: 20px;">
+        This is some text in  div section
+        <p >This is paragraph in this div</p>
+        <p>This is another paragraph in this div</p> -->
+        
+        <!-- <div id="sec" style="width: 400px; height: 200px; background-color: yellow; padding: 20px;">
+            This is some text in  div section
+            <p >This is paragraph in this div</p>
+            <p>This is another paragraph in this div</p> -->
+            
+            
+            
+
+    <!-- <div id="addclass-sec">
+        This is some text in  div section
+        <p >This is paragraph in this div</p>
+        <p>This is another paragraph in this div</p>
+
+</div>
+
+<br>
+        <button id="addclass">Addclass</button>
+        <br> -->
+
+
+<!--  for Animation -->
+
+<button>Start Animation</button>
+
+<div style="border: 1px solid red; width: 150px; height: 150px; text-align: center; position:absolute; color: rebeccapurple; font-weight: bold;padding: 10px; font-size: 20px;">
+  <p >Makemelive tech.</p>  
+</div>
+
+
+    <script src="./jquery-3.6.0.min.js">
+
+    </script>
+    <script>
+        $(document).ready(function(){
+
+
+// $('input').keypress(function()
+// {
+
+//     alert('This is name field');
+//     console.log('This is name field');
+// });
+// $('input').keyup(function()
+// {
+//     alert('This is name field');
+//     console.log('This is name field');
+// });
+
+// $('span').hide();
+
+
+// $('input').focus(function(){
+// $('#wlc').show();
+// });
+
+
+// $('input').blur(function(){
+// $('#cc').show();
+// });
+
+
+
+// use css with jquery
+
+// $('p').on({
+//     mouseenter:function(){
+//         $(this).css('backgroundColor','red');
+//     },
+//     mouseleave:function(){
+//         $(this).css('backgroundColor','blue');
+//     }
+// });
+
+// Use Append and prepend
+// $('button').click(function(){
+// $('ul').append('<li>About us </li>');
+// });
+
+// $('button').click(function(){
+// $('ol').prepend('<li>services </li>');
+
+// });
+
+
+//  for Remove and Empty method
+
+// $('#child').click(function(){
+// $('#sec').remove();
+// });
+
+
+// $('#child').click(function(){
+// $('#sec p').empty();
+// });
+
+// $('button').click(function(){
+// $('#addclass-sec').addClass('sec');
+// });
+
+// $('button').dblclick(function(){
+// $('#addclass-sec').removeClass('sec');
+// });
+
+// Animation 
+
+$('button').click(function(){
+    $('div').animate({left:'650px'});
+});
+
+
+        });
+
+
+    </script>
+</body>
+
+
+</html>
